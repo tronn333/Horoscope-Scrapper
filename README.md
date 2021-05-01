@@ -1,2 +1,2 @@
 # soloproject
-Release 1 - find API  to use
+Release 1 - Stole the Horoscope from mail.ru
