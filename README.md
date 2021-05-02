@@ -1,2 +1,2 @@
 # soloproject
-Release 1 - Stole the Horoscope from mail.ru
+Scrapes Horoscope frome mail.ru
