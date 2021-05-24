@@ -1,2 +1,2 @@
 # soloproject
-Scrapes Horoscope frome mail.ru
+Release 1 - find API  to use

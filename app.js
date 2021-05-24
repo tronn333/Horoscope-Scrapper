@@ -13,18 +13,9 @@ app.use(express.urlencoded({extended: true}))
 
 app.use('/', indexRouter)
 
-
 app.listen(
   6969,
   () => {
     console.log(`Server port 6969`);
-    mongoose.connect('mongodb://localhost:27017/assesment', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false
-    }, () => {
-      console.log('Base');
-    });
   }
 );

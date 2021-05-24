@@ -1,0 +1,85 @@
+body {
+  background-image: url(../images/nebo.png);
+  background-size: 100%;
+}
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+#constalation-picture {
+  visibility: hidden;
+  background-size: auto;
+  height: 100%;
+  width: 100%;
+}
+#headline {
+  color: peachpuff;
+  font-size: 20vh;
+  opacity: 0.6;
+  transition-duration: 1s;
+  font-weight: normal;
+  height: 120px;
+  animation: fadeIn linear 5s;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+#headline:hover {
+  letter-spacing: 10px;
+}
+#sex-input {
+  background: transparent;
+  border: none;
+  color: peachpuff;
+}
+#plohaya-knopka {
+  margin-top: 20px;
+  opacity: 0.6;
+  display: block;
+  background: transparent;
+  border: none;
+  color: peachpuff;
+  font-size: 22px;
+}
+#plohaya-forma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  display: block;
+  border: none;
+  height: 10vh;
+  width: 20vw;
+  animation: fadeIn linear 5s;
+}
+#knopka-goroscop {
+  visibility: hidden;
+}
+.answer-container {
+  opacity: 0.6;
+  overflow: hidden;
+  color: #fff;
+  transition: all 1s;
+  font-size: 30px;
+}
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
